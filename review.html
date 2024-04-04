@@ -42,20 +42,73 @@
 	</table>
 	<br>
 	<h1 align="center">Зворотний зв'язок</h1>
+	<br>
 
-	<div class="form-container">
-		<form>
-			<br>
-			<label>
-				<textarea id="form-textarea" cols="30" rows="5" name="areal"></textarea>
-				<br>
-				<input id="form-send" type="submit" value="Залишити відгук" class="form-buttons">
-				<input id="form-cancel" type="submit" value="Скасувати" class="form-buttons">
-			</label>
+	
 
-		</form>
+	<script src="https://use.fontawesome.com/a6f0361695.js"></script>
+
+
+	
+	
+	<form id="feedback" action="">
+	  <div class="pinfo">Ім'я</div>
+	  
+	<div class="form-group">
+	  <div class="col-md-4 inputGroupContainer">
+	  <div class="input-group">
+	  <span class="input-group-addon"><i class="fa fa-user"></i></span>
+	  <input  name="name" placeholder="John Doe" class="form-control"  type="text">
+		</div>
+	  </div>
 	</div>
 
+	<div class="pinfo">Електронна пошта</div>
+
+	<div class="form-group">
+		<div class="col-md-4 inputGroupContainer">
+		<div class="input-group">
+		<span class="input-group-addon"><i class="fa fa-envelope"></i></span>
+		  <input name="email" type="email" class="form-control" placeholder="john.doe@yahoo.com">
+		   </div>
+		</div>
+	  </div>
+	
+	
+	 <div class="pinfo">Оцінити книжкові події</div>
+	  
+	
+	<div class="form-group">
+	  <div class="col-md-4 inputGroupContainer">
+	  <div class="input-group">
+	  <span class="input-group-addon"><i class="fa fa-heart"></i></span>
+	   <select class="form-control" id="rate">
+		  <option value="1star">1</option>
+		  <option value="2stars">2</option>
+		  <option value="3stars">3</option>
+		  <option value="4stars">4</option>
+		  <option value="5stars">5</option>
+		</select>
+		</div>
+	  </div>
+	</div>
+	
+	 <div class="pinfo">Ваша думка про сайт</div>
+	  
+	
+	<div class="form-group">
+	  <div class="col-md-4 inputGroupContainer">
+	  <div class="input-group">
+	  <span class="input-group-addon"><i class="fa fa-pencil"></i></span>
+	  <textarea class="form-control" id="review" rows="3"></textarea>
+	 
+		</div>
+	  </div>
+	</div>
+	
+	<a href="thanks.html" type="submit" class="btn btn-primary">Відправити</a>
+
+	</form>
 	<br>
 
 
@@ -64,7 +117,7 @@
 		<table border="0" width="100%" align="center" class="container">
 			<tr class="row">
 				<td class="footer-col">
-					<a href="Index.html">
+					<a href="Index.html" id="footer-dec">
 						<h4>"Read&Speak"</h4>
 					</a>
 					<ul>
