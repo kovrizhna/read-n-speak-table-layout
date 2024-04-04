@@ -455,7 +455,7 @@ form {
   }
    #fh6 {
    padding: 2px 15px;
-   color: #4d0er;
+   color: #2e2e2e;
    text-align: center;
    font-weight: normal;
   }
@@ -519,7 +519,7 @@ form {
   }
   
   .form-control:-ms-input-placeholder {
-	color: blue;
+	color: rgb(64, 64, 64);
 	opacity: 1;
   }
   
@@ -696,8 +696,8 @@ form {
   
   .btn:focus, .btn.focus {
 	outline: 0;
-	-webkit-box-shadow: 0 0 0 2px rgba(2, 117, 216, 0.25);
-			box-shadow: 0 0 0 2px rgba(2, 117, 216, 0.25);
+	-webkit-box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.25);
+			box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.25);
   }
   
   .btn.disabled, .btn:disabled {
@@ -728,8 +728,8 @@ form {
   }
   
   .btn-primary:focus, .btn-primary.focus {
-	-webkit-box-shadow: 0 0 0 2px rgba(2, 117, 216, 0.5);
-			box-shadow: 0 0 0 2px rgba(2, 117, 216, 0.5);
+	-webkit-box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.5);
+			box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.5);
   }
   
   .btn-primary.disabled, .btn-primary:disabled {
